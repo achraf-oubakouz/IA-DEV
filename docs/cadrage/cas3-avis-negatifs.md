@@ -18,7 +18,7 @@ Cocher une seule case :
 - [ ] Modèle génératif seul
 
 ## Justification (obligatoire, citer au moins deux critères de la grille : (a) données étiquetées, (b) vérifiabilité, (c) coût par requête, (d) conséquence d'une erreur)
-L'apprentissage supervisé est adapté car nous disposons de 500 avis étiquetés par l'équipe Customer Success (critère a : données étiquetées). La conséquence d'un faux négatif est particulièrement grave, car un avis critique non détecté peut entraîner des risques juridiques et réputationnels (critère d : conséquence d'une erreur). Les prédictions restent vérifiables par un humain (critère b : vérifiabilité).
+L'apprentissage supervisé est adapté car nous disposons de 500 avis étiquetés par l'équipe Customer Success (critère (a) : données étiquetées). La conséquence d'un faux négatif est particulièrement grave, car un avis critique non détecté peut entraîner des risques juridiques et réputationnels (critère (d) : conséquence d'une erreur). Les prédictions restent vérifiables par un humain (critère (b) : vérifiabilité).
 
 ## Données nécessaires et leur origine (obligatoire)
 5 000 avis collectés sur les deux derniers mois depuis le site e-commerce et Amazon, dont 500 avis annotés manuellement par l'équipe Customer Success selon deux catégories : « NÉGATIF_CRITIQUE » et « AUTRE ». Les données doivent inclure le texte des avis et leurs métadonnées disponibles, comme la date et la note attribuée.

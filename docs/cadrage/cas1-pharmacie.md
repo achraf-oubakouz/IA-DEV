@@ -18,7 +18,7 @@ Cocher une seule case :
 - [ ] Modèle génératif seul
 
 ## Justification (obligatoire, citer au moins deux critères de la grille : (a) données étiquetées, (b) vérifiabilité, (c) coût par requête, (d) conséquence d'une erreur)
-L'approche supervisée est adaptée car nous disposons de 500 avis déjà étiquetés positifs ou négatifs (critère a : données étiquetées). Les prédictions sont facilement vérifiables par les propriétaires (critère b : vérifiabilité), et une erreur peut entraîner une mauvaise priorisation des problèmes de satisfaction client (critère d : conséquence d'une erreur).
+L'approche supervisée est adaptée car nous disposons de 500 avis déjà étiquetés positifs ou négatifs (critère (a) : données étiquetées). Les prédictions sont facilement vérifiables par les propriétaires (critère (b) : vérifiabilité), et une erreur peut entraîner une mauvaise priorisation des problèmes de satisfaction client (critère (d) : conséquence d'une erreur).
 
 ## Données nécessaires et leur origine (obligatoire)
 500 avis clients provenant de plateformes comme Google et Trustpilot, collectés sur une période de six mois et étiquetés par les propriétaires des pharmacies. Ils couvrent notamment la qualité du service, les délais d'attente, l'amabilité du personnel et la disponibilité des médicaments.
