@@ -18,7 +18,7 @@ Cocher une seule case :
 - [ ] Modèle génératif seul
 
 ## Justification (obligatoire, citer au moins deux critères de la grille : (a) données étiquetées, (b) vérifiabilité, (c) coût par requête, (d) conséquence d'une erreur)
-Le Machine Learning permet d'analyser l'historique des ventes et les facteurs influençant la demande afin de prévoir les quantités nécessaires pour chaque produit dans chaque magasin.
+Le Machine Learning permet d'analyser l'historique des ventes afin de prévoir la demande à partir de données mesurables (critère (a) : données disponibles). Les prévisions peuvent être comparées aux ventes réelles pour vérifier leur fiabilité (critère (b) : vérifiabilité). Une erreur peut provoquer une rupture ou un surstock, ce qui justifie une validation des recommandations avant les commandes importantes (critère (d) : conséquence d'une erreur).
 
 ## Données nécessaires et leur origine (obligatoire)
 -Historique des ventes : dates, quantités vendues, produits et magasins (base de données de la chaîne de supermarchés).

@@ -1,0 +1,3 @@
+Les erreurs étaient l’absence de deux critères dans la justification de `cas4-mon-cas.md` et l’échec des tests `test_metriques_completes` et `test_f1_au_dessus_du_seuil`.
+La justification ne mentionnait pas explicitement les critères attendus, et ces deux tests échouaient parce que `models/metrics.json` n’existait pas.
+Il faut citer au moins deux critères dans la justification, générer les données de démonstration avec `python src/make_demo.py` si elles manquent, puis entraîner le modèle avec `python src/train.py` pour produire les métriques.
