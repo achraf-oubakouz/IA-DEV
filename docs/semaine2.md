@@ -1,0 +1,3 @@
+Le modèle a produit 7 erreurs : 5 avis positifs ont été classés négatifs et 2 avis négatifs ont été classés positifs.
+Ces erreurs viennent surtout d'avis mixtes contenant d'abord des indices négatifs puis une conclusion positive, ou l'inverse, ce qui rend la polarité globale difficile à détecter avec les seuls termes appris.
+Pour les corriger, il faudrait annoter davantage d'avis mixtes et neutres, enrichir les données avec des exemples contradictoires et améliorer les caractéristiques ou le modèle afin de mieux tenir compte du contexte et de la conclusion de l'avis.
