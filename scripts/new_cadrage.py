@@ -1,4 +1,4 @@
-git config --global user.name#!/usr/bin/env python
+#!/usr/bin/env python
 """Crée une nouvelle fiche de cadrage à partir du modèle.
 
 Usage : python scripts/new_cadrage.py cas4-mon-cas "Titre lisible du cas"

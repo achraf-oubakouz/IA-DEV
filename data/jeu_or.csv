@@ -1,1 +1,21 @@
 text,attendu,difficulte,erreur_connue
+"La chambre était propre, le lit confortable et l'accueil très attentionné.",POSITIVE,,
+"Mon rendez-vous a été annulé sans prévenir et personne n'a proposé de solution.",NEGATIVE,,
+"La nouvelle version s'ouvre rapidement et mes réglages ont été conservés.",POSITIVE,,
+"Le prélèvement a été effectué deux fois et le service client ne répond pas.",NEGATIVE,,
+"Le guide du musée est clair et les médiateurs ont répondu avec patience.",POSITIVE,domaine différent,
+"Nous avons attendu cinquante minutes et le repas est arrivé froid.",NEGATIVE,,
+"Le chauffeur est arrivé à l'heure et m'a aidé à porter mes bagages.",POSITIVE,domaine différent,
+"Le formulaire est incomplet, les montants sont faux et ma demande reste bloquée.",NEGATIVE,,
+"Les explications du cours sont concrètes et les exercices m'ont vraiment aidé.",POSITIVE,domaine différent,
+"La salle n'était pas nettoyée et l'équipe a ignoré notre signalement.",NEGATIVE,,
+"Je ne suis pas déçu : le suivi a été clair du début à la fin.",POSITIVE,négation,
+"Formidable, le train est parti à l'heure... sur le tableau seulement : nous avons attendu cinquante minutes.",NEGATIVE,ironie,
+"Le repas était savoureux, mais il est arrivé froid et avec une heure de retard.",NEGATIVE,avis mitigé,"Le modèle prédit POSITIVE et privilégie le terme positif « savoureux » malgré le retard et le repas froid."
+"La première connexion a échoué, mais le support a rappelé et tout fonctionne désormais.",POSITIVE,avis mitigé,
+"Le guide du musée est précis et les médiateurs ont répondu à toutes nos questions.",POSITIVE,domaine différent,
+"À la consultation, le médecin m'a interrompu sans écouter mes symptômes et n'a rien expliqué.",NEGATIVE,domaine différent,"Le modèle prédit POSITIVE sur cet avis médical hors du domaine de ses données d'entraînement."
+"Je ne recommande pas cette salle : les vestiaires étaient sales et l'accueil désagréable.",NEGATIVE,négation,"Le modèle prédit POSITIVE et ne comprend pas la négation dans « je ne recommande pas »."
+"Quelle efficacité : mon dossier est toujours bloqué après quatre relances.",NEGATIVE,ironie,
+"La chambre était spacieuse et bien située, mais le bruit des travaux nous a empêchés de dormir.",NEGATIVE,avis mitigé,
+"Le chauffeur a attendu une minute de plus et m'a aidé à charger les bagages; trajet très agréable.",POSITIVE,domaine différent,

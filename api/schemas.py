@@ -1,16 +1,32 @@
 """Contrats d'entrée et de sortie de l'API (Pydantic v2)."""
-from pydantic import BaseModel, Field
+from typing import Literal
+
+from pydantic import BaseModel, Field, field_validator
+
+SentimentLabel = Literal["POSITIVE", "NEGATIVE", "INDETERMINE"]
 
 
 class PredictRequest(BaseModel):
     """Requête de prédiction."""
-    text: str = Field(..., min_length=1, max_length=2000, description="Texte à classifier",
-                      examples=["Livraison rapide, produit conforme, très satisfait"])
+    text: str = Field(
+        ...,
+        min_length=1,
+        max_length=2000,
+        description="Texte à classifier",
+        examples=["Livraison rapide, produit conforme, très satisfait"],
+    )
+
+    @field_validator("text")
+    @classmethod
+    def texte_non_vide_apres_strip(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("Le texte ne peut pas être vide ou composé uniquement d'espaces")
+        return value
 
 
 class PredictResponse(BaseModel):
     """Réponse de prédiction."""
-    label: str = Field(..., description="POSITIVE ou NEGATIVE")
+    label: SentimentLabel = Field(..., description="POSITIVE, NEGATIVE ou INDETERMINE")
     score: float = Field(..., ge=0, le=1, description="Confiance de la classe prédite")
     text: str = Field(..., description="Aperçu du texte analysé (100 caractères)")
 
