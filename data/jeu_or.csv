@@ -1,0 +1,21 @@
+text,attendu,difficulte,erreur_connue
+"Le colis est arrivé avant la date annoncée et tout fonctionne parfaitement",POSITIVE,,
+"La notice est claire et l'installation ne m'a pris que dix minutes",POSITIVE,,
+"Le vendeur a répondu précisément à toutes mes questions",POSITIVE,,
+"Une finition remarquable et un produit agréable au quotidien",POSITIVE,,"le modèle a prédit NEGATIVE"
+"Je suis content de cet achat, le rapport qualité-prix est excellent",POSITIVE,,
+"Le carton était éventré et il manquait l'accessoire principal",NEGATIVE,,"le modèle a prédit POSITIVE"
+"Après trois utilisations, l'appareil ne s'allume déjà plus",NEGATIVE,,
+"Le retour a été refusé malgré un article défectueux",NEGATIVE,,
+"Le suivi est resté bloqué pendant une semaine sans explication",NEGATIVE,,"le modèle a prédit POSITIVE"
+"Je n'ai jamais reçu le bon modèle et le support ne répond pas",NEGATIVE,,"le modèle a prédit POSITIVE"
+"Pas vraiment déçu, puisque le remplacement a été immédiat",POSITIVE,négation,
+"Quelle merveille, un abonnement impossible à résilier",NEGATIVE,ironie,
+"Merci pour cette livraison éclair, arrivée avec douze jours de retard",NEGATIVE,ironie,
+"L'hôtel est très élégant, mais la chambre donnait sur une rue extrêmement bruyante",NEGATIVE,avis_mitigé,"le modèle a prédit POSITIVE"
+"Le repas était délicieux, même si le service a duré plus d'une heure",POSITIVE,avis_mitigé,
+"Le concert était superbe, dommage que le son ait coupé plusieurs fois",NEGATIVE,avis_mitigé,"le modèle a prédit POSITIVE"
+"Le train était confortable, mais il est arrivé avec quarante minutes de retard",NEGATIVE,avis_mitigé,"le modèle a prédit POSITIVE"
+"Le musée est passionnant et l'accueil des visiteurs est chaleureux",POSITIVE,autre_domaine,
+"Le cours de yoga était excellent, mais la salle était beaucoup trop froide",NEGATIVE,autre_domaine,"le modèle a prédit POSITIVE"
+"Tout paraît irréprochable au premier regard, pourtant l'appareil s'est arrêté dès le lendemain",NEGATIVE,avis_mitigé,
